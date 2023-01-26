@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "PayPal3DS2 SwiftUI based SDK to verify 3DS2 code for card payment."
- 
+  spec.homepage     ="https://github.com/Yoseph-YT/PayPal3DS2"
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Licensing your code is important. See https://choosealicense.com for more info.
@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "PayPal"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
