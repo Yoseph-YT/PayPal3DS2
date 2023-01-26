@@ -59,15 +59,15 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+   spec.platform     = :ios
+   spec.platform     = :ios, "12.0"
 
   #  When using multiple platforms
      spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-
+ i spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
