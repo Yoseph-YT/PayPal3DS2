@@ -24,9 +24,8 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "PayPal3DS2 SwiftUI based SDK to verify 3DS2 code for card payment.”
+  spec.description  = "PayPal3DS2 SwiftUI based SDK to verify 3DS2 code for card payment."
  
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Licensing your code is important. See https://choosealicense.com for more info.
