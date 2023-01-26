@@ -66,7 +66,8 @@ Pod::Spec.new do |spec|
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
- i spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
+   
+    spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -107,7 +108,6 @@ Pod::Spec.new do |spec|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
